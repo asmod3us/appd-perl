@@ -2,9 +2,6 @@
 
 #set -x
 
-# Where is the SDK installed
-APPD_SDK=/home/stevew/AppDynamics/appdynamics-sdk-native/sdk_lib
-
 # clean
 rm *.o *.so *wrap.c *.pm > /dev/null 2>&1
 
