@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 #include "proxy.h"
 
 struct appd_config *newConfig() {
 
     struct appd_config *cfg = malloc(sizeof(struct appd_config));
+    memset(cfg, 0, sizeof(struct appd_config));
 
     return cfg;
 }
